@@ -58,12 +58,12 @@ $inventory->checkLogin();
     					<input type="hidden" name="btn_action" id="btn_action" />
 							<div class="mb-3">
 								<select name="categoryid" id="categoryid" class="form-select rounde-0" required>
-									<option value="">Select Category</option>
+									<option value="">Select fear of god</option>
 									<?php echo $inventory->categoryDropdownList(); ?>
 								</select>
 							</div>
 							<div class="mb-3">
-								<label>Enter Brand Name</label>
+								<label>Enter Brand bricks</label>
 								<input type="text" name="bname" id="bname" class="form-control  rounde-0" required />
 							</div>
     					</form>
