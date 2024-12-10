@@ -119,9 +119,9 @@ $inventory->checkLogin();
                                     <input type="text" name="tax" id="tax" class="form-control rounded-0" required pattern="[+-]?([0-9]*[.])?[0-9]+" />
                                 </div>
                                 <div class="form-group">
-                                    <label>Supplier</label>
+                                    <label>Source</label>
                                     <select name="supplierid" id="supplierid" class="form-select rounded-0" required>
-                                        <option value="">Select Supplier</option>
+                                        <option value="">Select source</option>
                                         <?php echo $inventory->supplierDropdownList();?>
                                     </select>
                                 </div>
