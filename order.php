@@ -60,7 +60,7 @@ $inventory->checkLogin();
                             <input type="hidden" name="order_id" id="order_id" />
                             <input type="hidden" name="btn_action" id="btn_action" />
                                 <div class="mb-3">
-                                    <label>Product Name</label>
+                                    <label>Name of product</label>
                                     <select name="product" id="product" class="form-select rounded-0" required>
                                         <option value="">Select Product</option>
                                         <?php echo $inventory->productDropdownList();?>
