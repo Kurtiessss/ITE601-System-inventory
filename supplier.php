@@ -22,10 +22,10 @@ $inventory->checkLogin();
 				<div class="card-header">
 					<div class="row">
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-6">
-							<h3 class="card-title">Supplier List</h3>
+							<h3 class="card-title">Source List</h3>
 						</div>
 						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 text-end">
-							<button type="button" name="add" id="addSupplier" data-bs-toggle="modal" data-bs-target="#userModal" class="btn btn-primary btn-sm rounded-0"><i class="far fa-plus-square"></i> Add Supplier</button>
+							<button type="button" name="add" id="addSupplier" data-bs-toggle="modal" data-bs-target="#userModal" class="btn btn-primary btn-sm rounded-0"><i class="far fa-plus-square"></i> Add Source</button>
 						</div>
 					</div>					   
 					<div class="clear:both"></div>
@@ -38,7 +38,7 @@ $inventory->checkLogin();
 									<tr>
 										<th>ID</th>										
 										<th>Name</th>
-										<th>Mobile</th>
+										<th>number</th>
 										<th>Address</th>
 										<th>Status</th>										
 										<th>Action</th>
@@ -54,7 +54,7 @@ $inventory->checkLogin();
         	<div class="modal-dialog modal-dialog-centered">
         			<div class="modal-content">
 						<div class="modal-header">
-							<h4 class="modal-title"><i class="fa fa-plus"></i> Add Supplier</h4>
+							<h4 class="modal-title"><i class="fa fa-plus"></i> Add Source</h4>
 							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 						</div>
 						<div class="modal-body">
