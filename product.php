@@ -37,10 +37,10 @@ $inventory->checkLogin();
                                     <th>ID</th>      
 									<th>Category</th>	
 									<th>Brand Name</th>									
-                                    <th>Product Name</th>
+                                    <th>Name of product</th>
 									<th>Product Model</th>
                                     <th>Quantity</th>
-                                    <th>Supplier Name</th>
+                                    <th>source Name</th>
                                     <th>Status</th>
                                     <th>Action</th>
                                 </tr></thead>
