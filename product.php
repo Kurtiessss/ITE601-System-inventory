@@ -76,7 +76,7 @@ $inventory->checkLogin();
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label>Product Name</label>
+                                    <label>Name of product</label>
                                     <input type="text" name="pname" id="pname" class="form-control rounded-0" required />
                                 </div>
                                 <div class="form-group">
